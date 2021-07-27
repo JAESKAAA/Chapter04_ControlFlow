@@ -48,7 +48,7 @@ public class WhileScannerPractice {
 			case 1 :
 				System.out.println("예금액> ");
 				balance = sc.nextLong();
-				System.out.println("현재 잔고는 "+formatter.format(1000000)+" 원 입니다.");
+				System.out.println("현재 잔고는 "+formatter.format(balance)+" 원 입니다.");
 				continue;
 			
 			case 2:
